@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+}
+            /* for middle start */
+
+body{
+    background: linear-gradient(to right,#ac2f33,#1f61b5);
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+            /* for middle end */
+
+.container{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+    background-color: rgb(19, 18, 18);
+    padding: 25px 50px;
+    border: 1px solid black;
+}
+
+.container:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.815);
+}
+
+.innercontainer{
+    /* padding: 5px 20px; */
+    /* border: 1px solid rgb(219, 28, 28); */
+    width: 22vw;
+}
+
+.log{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+
+.des{
+    color: white;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inputField>input{
+    background: none;
+    width: 100%;
+    padding: 20px;
+    /* border: 2px solid rgb(93, 76, 192); */
+    border: 2px solid #604a79;
+    height: 43px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    outline: none;
+    opacity: 0.8;
+    border-radius: 50px;
+}
+
+input[type="password"]{
+    margin: 18px 0;
+}
+::-ms-reveal{
+    filter: invert(90%);
+}
+
+.fpswd,.login{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.fpswd>a{
+    color: white;
+    opacity: 0.5;
+}
+
+.login{
+    margin: 18px 0;
+    padding: 20px;
+}
+
+.login>a{
+    padding: 12px 36px;
+    border: 2px solid #63836d;
+    font-size: 20px;
+    color: white;
+    border-radius: 24px;
+    text-decoration: none;
+}
+
+.socialLinks{
+    /* border: 1px solid black; */
+display : flex;
+justify-content:center;
+    /*text-align: center;*/
+    margin-top: 24px;
+}
+
+.socialLinks>a:not(:last-child){
+    margin-right: 40px;
+}
+
+.socialLinks>a{
+    color: white;
+}
+
+.socialLinks>a:hover{
+    /* border: 2px solid rgb(255, 255, 255); */
+	 box-shadow: 0 0 20px rgba(0, 0, 0, 0.815)
+    transition: all 0.8s;
+}
